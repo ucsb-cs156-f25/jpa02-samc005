@@ -41,31 +41,31 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_Lauren() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Lauren"),"Team should contain Lauren");
+        assertTrue(t.getMembers().contains("LAUREN GRACE"),"Team should contain Lauren");
     }
     @Test
     public void getTeam_returns_team_with_Viktor() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Viktor"),"Team should contain Viktor");
+        assertTrue(t.getMembers().contains("SAMPRITA"),"Team should contain Viktor");
     }
     @Test
     public void getTeam_returns_team_with_Dennis() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Dennis"),"Team should contain Dennis");
+        assertTrue(t.getMembers().contains("DAVID MARIO"),"Team should contain Dennis");
     }
     @Test
     public void getTeam_returns_team_with_Onur() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Onur"),"Team should contain Onur");
+        assertTrue(t.getMembers().contains("DENNIS"),"Team should contain Onur");
     }
     @Test
     public void getTeam_returns_team_with_Samprita() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Samprita"),"Team should contain Samprita");
+        assertTrue(t.getMembers().contains("VIKTOR STANISLAVOV"),"Team should contain Samprita");
     }
     @Test
     public void getTeam_returns_team_with_David() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("David"),"Team should contain David");
+        assertTrue(t.getMembers().contains("ONUR"),"Team should contain David");
     }
 }
